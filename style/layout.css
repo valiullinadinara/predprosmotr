@@ -1,22 +1,43 @@
+@font-face {
+font-family: 'Uni Sans Heavy';
+src: url('../fonts/UniSansHeavy.eot');
+src: url('../fonts/UniSansHeavy.eot?#iefix') format('embedded-opentype'),
+url('../fonts/UniSansHeavy.woff') format('woff'),
+url('../fonts/UniSansHeavy.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
 html {
   overflow: hidden;
 }
+
 body {
   width: 100vw;
   height: 100vh;
-
-
   background: #02071c;
 }
-div{
-  margin-top: 150px;
-  margin-left: 400px;
 
-}
-p{
-
+.count{
   position: absolute;
-  color: white;
+  margin-top: 120px;
+  margin-left: 380px;
+}
 
+.sum{
+  color: white;
   font-size: 150px;
+  font-family: 'Uni Sans Heavy' ;
+}
+
+.ticket{
+  color: white;
+  font-size: 68px;
+  font-family: 'Uni Sans Heavy'
+}
+
+.text{
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 360px;
 }
