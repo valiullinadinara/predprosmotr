@@ -41,3 +41,26 @@ body {
   margin-left: 400px;
   margin-top: 360px;
 }
+
+img{
+  position: relative;
+  width: 30vh;
+  transform: rotate(45deg);
+}
+
+.img1{
+  margin-left: 90px;
+}
+.img2{
+  margin-top: 20px;
+  margin-left: 400px;
+}
+
+.img3{
+  margin-top: 450px;
+  margin-left: 350px;
+}
+
+.img4{
+  margin-left: 350px;
+}
