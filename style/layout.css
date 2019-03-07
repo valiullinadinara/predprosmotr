@@ -11,16 +11,21 @@ font-style: normal;
 html {
   overflow: hidden;
 }
-
 body {
-  width: 100vw;
-  height: 100vh;
+  height: 100000px;
+}
+
+.welcome {
+  position: absolute;
+  /* width: 100vw;
+  height: 100vw; */
   background: #02071c;
 }
 
+
 .count{
   position: absolute;
-  margin-top: 120px;
+  margin-top: 280px;
   margin-left: 380px;
 }
 
@@ -39,7 +44,7 @@ body {
 .text{
   position: absolute;
   margin-left: 400px;
-  margin-top: 360px;
+  margin-top: 420px;
 }
 
 img{
@@ -49,6 +54,7 @@ img{
 }
 
 .img1{
+  position: fixed;
   margin-left: 90px;
 }
 .img2{
@@ -63,4 +69,10 @@ img{
 
 .img4{
   margin-left: 350px;
+}
+
+.typograf{
+  /* width: 100vw;
+  height: 1000px; */
+  background: #00f9ff;
 }
