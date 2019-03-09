@@ -7,18 +7,27 @@ url('../fonts/UniSansHeavy.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
+@font-face {
+			font-family: "BebasRegular";
+			src: url("../fonts/BebasRegular.eot");
+			src: url("../fonts/BebasRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BebasRegular.woff") format("woff"),
+			url("../fonts/BebasRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
 
 html {
-  overflow: hidden;
+  overflow: scroll;
 }
 body {
-  height: 100000px;
+  height: 6000px;
 }
 
 .welcome {
-  position: absolute;
-  /* width: 100vw;
-  height: 100vw; */
+  position: relative;
+  width: 100vw;
+  height: 750px;
   background: #02071c;
 }
 
@@ -72,7 +81,136 @@ img{
 }
 
 .typograf{
-  /* width: 100vw;
-  height: 1000px; */
-  background: #00f9ff;
+  position: absolute;
+  width: 100vw;
+  height: 1000px;
+  background: linear-gradient(to right, #014b68, #010020);
+}
+
+.content{
+  position: relative;
+  margin-top: 120px;
+}
+
+.p1, .p2, .p3, .p4, .p5{
+  position: absolute;
+  font-size: 100px;
+  font-family: 'Uni Sans Heavy'
+
+
+}
+.p1{
+  margin-top: 80px;
+  animation-duration: 3s;
+  animation-name: p1;
+  margin-left: 80px;
+  color: #06fcfc;
+}
+@keyframes p1 {
+from{
+  margin-left: -200px;
+}
+to{
+  margin-left: 80px;
+}
+}
+
+.p2{
+  margin-top: 170px;
+  animation-duration: 3s;
+  animation-name: kg;
+  margin-left: 400px;
+  color: #06fcfc;
+}
+@keyframes kg {
+from{
+  margin-left: 2000px;
+}
+to{
+  margin-left: 400px;
+
+}
+}
+
+.p3{
+  margin-top: 260px;
+  animation-duration: 3s;
+  animation-name: p3;
+  margin-left: 800px;
+  color: #06fcfc;
+}
+@keyframes p3 {
+from{
+  margin-left: 2000px;
+}
+to{
+  margin-left: 800px;
+
+}
+}
+
+.p4{
+  margin-top: 260px;
+  animation-duration: 3s;
+  animation-name: p4;
+  margin-left: 80px;
+  color: #06fcfc;
+}
+@keyframes p4 {
+from{
+  margin-left: -200px;
+}
+to{
+  margin-left: 80px;
+
+}
+}
+
+.p5{
+  margin-top: 350px;
+  animation-duration: 3s;
+  animation-name: p5;
+  margin-left: 300px;
+  color: #06fcfc;
+}
+@keyframes p5 {
+from{
+  margin-left: -200px;
+}
+to{
+  margin-left: 300px;
+
+}
+}
+
+.pp6{
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  margin-top: 85px;
+  margin-left: 1000px;
+}
+
+.p6{
+  font-size: 15px;
+  font-family: 'BebasRegular';
+  text-transform: uppercase;
+  color: #06fcfc;
+  font-weight:lighter;
+}
+
+.pp7{
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  margin-top: 175px;
+  margin-left: 900px;
+}
+
+.p7{
+  font-size: 15px;
+  font-family: 'BebasRegular';
+  text-transform: uppercase;
+  color: #06fcfc;
+  font-weight:lighter;
 }
