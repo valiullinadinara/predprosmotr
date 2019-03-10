@@ -26,6 +26,7 @@ body {
 }
 
 .welcome {
+  display: flex;
   position: relative;
   width: 100vw;
   height: 750px;
@@ -35,56 +36,57 @@ body {
 
 .count{
   position: absolute;
-  margin-top: 280px;
-  margin-left: 380px;
+  margin-top: 20vw;
+  margin-left: 26vw;
 }
 
 .sum{
   color: white;
-  font-size: 150px;
+  font-size: 11vw;
   font-family: 'Uni Sans Heavy' ;
 }
 
 .ticket{
   color: white;
-  font-size: 68px;
+  font-size: 5vw;
   font-family: 'Uni Sans Heavy'
 }
 
 .text{
   position: absolute;
-  margin-left: 400px;
-  margin-top: 420px;
+  margin-left: 27vw;
+  margin-top: 30vw;
 }
 
 img{
-  position: relative;
-  width: 30vh;
+  position: absolute;
+  width: 25vw;
   transform: rotate(45deg);
 }
 
 .img1{
-  position: fixed;
-  margin-left: 90px;
+  margin-top: 5vw;
+  margin-left: 10vw;
 }
 .img2{
-  margin-top: 20px;
-  margin-left: 400px;
+  margin-top: 5vw;
+  margin-left: 70vw;
 }
 
 .img3{
-  margin-top: 450px;
-  margin-left: 350px;
+  margin-top: 35vw;
+  margin-left: 10vw;
 }
 
 .img4{
-  margin-left: 350px;
+  margin-top: 35vw;
+  margin-left: 70vw;
 }
 
 .typograf{
   position: absolute;
   width: 100vw;
-  height: 820px;
+  height: 823px;
   background: linear-gradient(to right, #014b68, #010020);
 }
 
@@ -131,7 +133,7 @@ h1{
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    margin-top: 760px;
+    margin-top: 643px;
 }
 
 .marquee2 span {
@@ -150,6 +152,7 @@ h1{
 
 
 .content{
+  display: flex;
   position: relative;
   margin-top: 120px;
 }
