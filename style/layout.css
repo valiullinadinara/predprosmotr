@@ -29,7 +29,7 @@ body {
   display: flex;
   position: relative;
   width: 100vw;
-  height: 55vw;
+  height: 50vw;
   background: #02071c;
 }
 
@@ -86,7 +86,7 @@ img{
 .typograf{
   position: absolute;
   width: 100vw;
-  height: 58vw;
+  height: 56vw;
   background: linear-gradient(to right, #014b68, #010020);
 }
 
@@ -133,7 +133,7 @@ h1{
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    margin-top: 643px;
+    margin-top: 47vw;
 }
 
 .marquee2 span {
@@ -154,7 +154,8 @@ h1{
 .content{
   display: flex;
   position: relative;
-  margin-top: 120px;
+  margin-top: 60px;
+
 }
 
 .p1, .p2, .p3, .p4, .p5{
@@ -345,4 +346,23 @@ to{
   opacity: 100%;
 
 }
+}
+
+a{
+  position: absolute;
+  display: inline-block;
+  border: 3px solid #06fcfc;
+  padding-left: 31px;
+  padding-right: 31px;
+  padding-top: 17px;
+  padding-bottom: 9px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "BebasRegular";
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: #06fcfc;
+  margin-top: 40vw;
+  margin-left: 43vw;
+
 }
