@@ -22,14 +22,14 @@ html {
 }
 body {
   width: 100vw;
-  height: 1200px;
+  height: 1000px;
 }
 
 .welcome {
   display: flex;
   position: relative;
   width: 100vw;
-  height: 750px;
+  height: 55vw;
   background: #02071c;
 }
 
@@ -86,7 +86,7 @@ img{
 .typograf{
   position: absolute;
   width: 100vw;
-  height: 823px;
+  height: 58vw;
   background: linear-gradient(to right, #014b68, #010020);
 }
 
